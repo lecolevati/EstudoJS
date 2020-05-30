@@ -8,13 +8,17 @@
 <!--  
 <script type="text/javascript" src=./js/script1.js></script>
 -->
-<script type="text/javascript" src=./js/script2.js></script>
+<script type="text/javascript" src=./js/restget.js></script>
 
 </head>
 <body>
-	<div id = "links">
-		<p><a href = "algoritmos.jsp">Algoritmos</a><br>
-		<p><a href = "rest.jsp">REST</a><br>
+	<div id = "rest">
+		<button type="button" onclick="getUsers();">Buscar Pessoas</button>
+		<br>
+		<br>
 	</div>	
+	<div id = result>
+	
+	</div>
 </body>
 </html>
